@@ -8,7 +8,7 @@ This repository contains code for a simple one-page fitness club landing page. T
 .
 ├── index.html             # Main HTML file           
 ├── image/                 # Folder containing images used in the project
-├── fonts                  # Folder containing font files
+├── fonts/                 # Folder containing font files
 └── css/                   
     ├── base/              # Folder for base styles (e.g., resets, global settings)
     ├── blocks/            # Folder for site blocks
