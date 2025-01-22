@@ -1,0 +1,31 @@
+.contacts {
+    height: 860px;
+    background-image: image-set(
+        url("./../../image/contacts/contact-form-bg.jpg") 1x,
+        url("./../../image/contacts/contact-form-bg@2x.jpg") 2x
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts__title {
+    margin-bottom: 40px;
+    font-family: var(--font-accent);
+    color: var(--accent);
+    font-weight: 700;
+    font-size: 70px;
+    letter-spacing: 4px;
+}
+
+
+/* Адаптация */
+@media (max-width: 600px) {
+    .contacts__title {
+        font-size: 52px;
+    }
+}
